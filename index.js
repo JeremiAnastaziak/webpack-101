@@ -1,4 +1,4 @@
-console.log('webpack', new Date().getMilliseconds());
+console.log('webpack', new Date().getTime());
 
 const rootElement = document.createElement('div');
 rootElement.id = 'root';
